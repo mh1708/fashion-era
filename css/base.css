@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+}
+
+:root {
+    --text--color: rgba(50, 50, 50, 1);
+    --green-color: #004743;
+    --white-color: #fff;
+}
+
+body {
+    box-sizing: border-box;
+    background: #fff;
+    color: #000;
+    line-height: 1.42857;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+a:focus {
+    outline: 0;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+    outline: none;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+li {
+    list-style-type: none;
+}
+
+ul {
+    margin: 0;
+}
+
+input:focus,
+button:focus {
+    outline: 0;
+    transition: all 0.4s ease;
+    outline: none !important
+}
+
+img {
+    max-width: 100%;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    max-width: 1320px;
+    margin: auto;
+}
+
+.col-1 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 8.333333%;
+    flex: 0 0 8.333333%;
+    max-width: 8.333333%
+}
+
+.col-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 16.666667%
+}
+
+.col-3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%
+}
+
+.col-4 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%
+}
+
+.col-5 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 41.666667%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%
+}
+
+.col-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%
+}
+
+.col-7 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 58.333333%;
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%
+}
+
+.col-8 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 66.666667%;
+    max-width: 66.666667%
+}
+
+.col-9 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 75%;
+    flex: 0 0 75%;
+    max-width: 75%
+}
+
+.col-10 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 83.333333%;
+    flex: 0 0 83.333333%;
+    max-width: 83.333333%
+}
+
+.col-11 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 91.666667%;
+    flex: 0 0 91.666667%;
+    max-width: 91.666667%
+}
+
+.col-12 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%
+}
+
+.heading {
+    font-weight: 500;
+    font-size: 70px;
+    line-height: 80px;
+    color: rgb(50, 50, 50);
+    padding-top: 36px;
+}
+
+.description {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: rgb(255, 255, 255);
+    margin-top: 19px;
+}
+
+button.owl-prev,
+button.owl-next {
+    width: 48px;
+    height: 48px;
+    border: 2px solid #959595 !important;
+    border-radius: 50px !important;
+}
+
+button.owl-prev i,
+button.owl-next i {
+    color: #959595;
+}
+
+button.owl-prev:hover,
+button.owl-next:hover {
+    background-color: none !important;
+    color: none !important;
+}
+
+#men .owl-theme .owl-nav,
+#women .owl-theme .owl-nav,
+#kids .owl-theme .owl-na {
+    display: none !important;
+}
+
+.owl-theme .owl-nav {
+    display: block !important;
+}
+
+.owl-item.active {
+    width: 327px;
+}
+
+.navbar-toggle,
+.navbar-search {
+    width: 22px;
+    height: 25px;
+    display: none;
+    cursor: pointer;
+}
+
+.header-nav {
+    display: flex;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px
+}

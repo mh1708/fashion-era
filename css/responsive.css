@@ -1,0 +1,547 @@
+@media only all and (max-width: 320px) {
+    /* điện thoại di động, hiển thị chiều dọc */
+    .header-manipulation-item:first-child {
+        display: none;
+    }
+    #sales .sale-kids .sale_kids-text .heading {
+        font-size: 22px;
+    }
+    #product .product-header .heading {
+        font-size: 40px;
+    }
+    .product-interactive {
+        position: absolute;
+        top: 10%;
+        right: 15px;
+    }
+    .mail-item .mail-bottom .btn.btn-send {
+        width: 40px;
+        height: 40px;
+        margin-top: 30px;
+    }
+    .icon-send {
+        width: 20px;
+        height: 20px;
+        display: block;
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 11px;
+    }
+}
+
+@media only all and (max-width: 480px) {
+    /* điện thoại di động, hiển thị chiều ngang */
+    .header-manipulation-item:nth-child(2) {
+        display: none;
+    }
+    #policy {
+        display: none;
+    }
+    .sales-list .sales-thumb .sales-img {
+        display: none;
+    }
+    .sales-thumb {
+        display: block;
+        text-align: center;
+    }
+    .sales-text .heading {
+        max-width: 100%;
+        font-size: 25px;
+    }
+    .sales-list .sales-item .sales-thumb .sales-text {
+        margin-left: 0;
+    }
+    .sale-kids .sale_kids-text .heading {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .sale_kids-text .trapezoid {
+        margin-top: 10px;
+        margin-bottom: 50px;
+    }
+    .sale-kids {
+        min-height: 500px;
+    }
+    .product-header .heading {
+        font-size: 50px;
+    }
+    .product-thumb {
+        padding-right: 0;
+    }
+    .brands-list .heading,
+    #trend-product .heading,
+    #review .heading {
+        font-size: 35px;
+        line-height: 38px;
+    }
+    #trend-product .description {
+        margin-bottom: 15px;
+    }
+    #review .description {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .review-list {
+        display: block;
+        background: none;
+    }
+    #review .review-thumb .owl-nav {
+        position: static;
+    }
+    .footer-service {
+        display: block;
+    }
+    .review-user {
+        width: 100%;
+        height: 300px;
+    }
+    .all-brand {
+        flex-wrap: wrap;
+    }
+    .all-brand-item {
+        width: 33.33%;
+    }
+    #women .product-list {
+        display: block;
+    }
+    .banner-text {
+        margin-top: 35px;
+    }
+}
+
+@media only all and (max-width: 541px) {
+    /* máy tính bảng, hiển thị chiều dọc */
+    .col-sm-1 {
+        width: 8.33%;
+    }
+    .col-sm-2 {
+        width: 16.66%;
+    }
+    .col-sm-3 {
+        width: 25%;
+    }
+    .col-sm-4 {
+        width: 33.33%;
+    }
+    .col-sm-5 {
+        width: 41.66%;
+    }
+    .col-sm-6 {
+        width: 50%;
+    }
+    .col-sm-7 {
+        width: 58.33%;
+    }
+    .col-sm-8 {
+        width: 66.66%;
+    }
+    .col-sm-9 {
+        width: 75%;
+    }
+    .col-sm-10 {
+        width: 83.33%;
+    }
+    .col-sm-11 {
+        width: 91.66%;
+    }
+    .col-sm-12 {
+        width: 100%;
+    }
+    .container {
+        max-width: 540px !important;
+        padding: 15px;
+    }
+    .header-search input {
+        width: 100%;
+    }
+    .header-search-icon {
+        top: 30px;
+        right: 30px;
+    }
+    .product-type-list {
+        padding: 10px 20px;
+        width: 50%;
+    }
+    .mail-bottom .form-mail {
+        padding: 20px;
+    }
+    .banner-list {
+        display: block;
+        min-height: 450px;
+    }
+    .banner-right {
+        display: none;
+    }
+    .banner-left {
+        max-width: 100%;
+    }
+    .banner-left .banner-text .heading {
+        text-align: center;
+        font-size: 42px;
+    }
+    .banner-left .btn-shop_now {
+        width: 100%;
+        text-align: center;
+    }
+    .banner-trending {
+        text-align: center;
+    }
+    .product-list {
+        justify-content: center;
+    }
+    #women .product-thumb {
+        margin-bottom: 50px;
+    }
+    .footer-item {
+        max-width: 100%;
+    }
+    .review-author {
+        margin-top: 30px;
+        text-align: center;
+        font-size: 50px;
+    }
+    .review-text {
+        font-size: 20px;
+        text-align: justify;
+        line-height: 30px;
+        margin-top: 50px;
+    }
+}
+
+@media only all and (max-width: 768px) {
+    /*máy tính bảng loại to, hiển thị chiều dọc*/
+    .col-md-1 {
+        width: 8.33%;
+    }
+    .col-md-2 {
+        width: 16.66%;
+    }
+    .col-md-3 {
+        width: 25%;
+    }
+    .col-md-4 {
+        width: 33.33%;
+    }
+    .col-md-5 {
+        width: 41.66%;
+    }
+    .col-md-6 {
+        width: 50%;
+    }
+    .col-md-7 {
+        width: 58.33%;
+    }
+    .col-md-8 {
+        width: 66.66%;
+    }
+    .col-md-9 {
+        width: 75%;
+    }
+    .col-md-10 {
+        width: 83.33%;
+    }
+    .col-md-11 {
+        width: 91.66%;
+    }
+    .col-md-12 {
+        width: 100%;
+    }
+    .navbar-search {
+        display: block;
+    }
+    .header-search {
+        position: absolute;
+        top: 50px;
+        width: 100%;
+        right: 0;
+        background: rgb(247, 247, 247);
+        opacity: 0;
+        visibility: hidden;
+        padding: 15px;
+        min-height: 0px;
+        transition: all 0.4s ease-in-out;
+    }
+    .header-search.active {
+        opacity: 1;
+        visibility: visible;
+        top: 116px;
+    }
+    .header-manipulation-item:nth-child(4) {
+        display: block;
+    }
+    .header-search input {
+        width: 100%;
+    }
+    .header-search-icon {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+    }
+    .header-manipulation-item {
+        padding: 0 20px;
+    }
+    .header-manipulation-number {
+        right: 10px;
+    }
+    .banner-text .heading {
+        line-height: 60px;
+    }
+    .banner-thumb:first-child {
+        left: 10px;
+    }
+    .banner-thumb:last-child {
+        left: 0px;
+    }
+    .policy-list {
+        padding: 30px 0px;
+    }
+    .sales-item .sales-thumb .sales-text {
+        margin-left: 20px;
+    }
+    .sales-thumb .sales-img {
+        margin-left: 30px;
+    }
+    .review-user-img {
+        margin-top: 20px;
+    }
+}
+
+@media only all and (max-width: 992px) {
+    /*máy tính bảng, hiển thị chiều ngang */
+    .col-lg-1 {
+        width: 8.33%;
+    }
+    .col-lg-2 {
+        width: 16.66%;
+    }
+    .col-lg-3 {
+        width: 25%;
+    }
+    .col-lg-4 {
+        width: 33.33%;
+    }
+    .col-lg-5 {
+        width: 41.66%;
+    }
+    .col-lg-6 {
+        width: 50%;
+    }
+    .col-lg-7 {
+        width: 58.33%;
+    }
+    .col-lg-8 {
+        width: 66.66%;
+    }
+    .col-lg-9 {
+        width: 75%;
+    }
+    .col-lg-10 {
+        width: 83.33%;
+    }
+    .col-lg-11 {
+        width: 91.66%;
+    }
+    .col-lg-12 {
+        width: 100%;
+    }
+    .sales-thumb .sales-text {
+        margin-left: 100px;
+    }
+    .review-info {
+        max-width: 400px;
+    }
+    .sale-kids {
+        justify-content: center;
+    }
+    .sale_kids-img {
+        display: none;
+    }
+    .sale-kids .sale_kids-text .btn-shop_now {
+        margin: auto;
+    }
+    .container {
+        max-width: 960px !important;
+        padding: 15px;
+    }
+    .banner-text .heading {
+        font-size: 45px;
+        font-weight: bold;
+    }
+    .footer-nav {
+        display: block;
+    }
+    .footer-logo {
+        max-width: 100%;
+    }
+    .mail-item .mail-bottom {
+        margin-left: 0px;
+        display: block;
+    }
+    .mail-bottom .btn.btn-send {
+        right: 0px;
+        height: 106px;
+        top: 0;
+    }
+    .mail-bottom {
+        margin-left: 117px;
+    }
+    .footer-service {
+        max-width: 100%;
+    }
+}
+
+@media only all and (max-width: 1200px) {
+    /* máy tính bảng loại to, hiển thị chiều ngang */
+    .sale_kids-text .trapezoid,
+    .sale_kids-text .heading,
+    .sale_kids-text .btn-shop_now {
+        margin-left: 0;
+    }
+    .sale_kids-text {
+        margin-left: 30px;
+    }
+    .brands-list {
+        max-width: 100%
+    }
+    .sale_kids-item {
+        margin-left: 50px;
+    }
+    .col-xl-1 {
+        width: 8.33%;
+    }
+    .col-xl-2 {
+        width: 16.66%;
+    }
+    .col-xl-3 {
+        width: 25%;
+    }
+    .col-xl-4 {
+        width: 33.33%;
+    }
+    .col-xl-5 {
+        width: 41.66%;
+    }
+    .col-xl-6 {
+        width: 50%;
+    }
+    .col-xl-7 {
+        width: 58.33%;
+    }
+    .col-xl-8 {
+        width: 66.66%;
+    }
+    .col-xl-9 {
+        width: 75%;
+    }
+    .col-xl-10 {
+        width: 83.33%;
+    }
+    .col-xl-11 {
+        width: 91.66%;
+    }
+    .col-xl-12 {
+        width: 100%;
+    }
+    .sales-thumb {
+        margin-bottom: 20px;
+    }
+    .sales-item {
+        display: block;
+    }
+    .header-nav li.active::before,
+    .header-nav li.active::after {
+        content: none;
+    }
+    .header-nav {
+        position: absolute;
+        left: 0;
+        background: #d3d3d3;
+        width: 100%;
+        margin: 0;
+        z-index: 100;
+        transition: all 0.4s ease-in-out;
+        height: 0px;
+        top: 100px;
+        opacity: 0;
+        visibility: hidden;
+    }
+    .header-nav {
+        display: block;
+    }
+    .header-nav.active {
+        display: block;
+        height: 275px;
+        background: rgb(247, 247, 247);
+        opacity: 1;
+        visibility: visible;
+    }
+    .header-nav-item {
+        padding: 15px 30px;
+    }
+    .navbar-toggle {
+        display: block;
+    }
+    .header-manipulation-item:nth-child(3) {
+        display: none;
+    }
+    .product-discount,
+    .product-new {
+        left: 10px;
+        font-size: 20px;
+    }
+    #review .owl-nav {
+        right: 85px;
+    }
+    .review-user,
+    .review-info {
+        margin-left: 0;
+    }
+    .product-type-link {
+        padding: 12px 30px;
+    }
+    .all-brand-item {
+        padding: 0px 5px;
+    }
+    .container {
+        max-width: 1200px;
+        padding: 15px;
+    }
+    .sales-left,
+    .sales-right {
+        max-width: 100%;
+    }
+    .sales-text {
+        margin-left: 200px;
+    }
+    .form-mail {
+        width: 100%;
+        font-size: 20px;
+    }
+    .mail-bottom .btn.btn-send {
+        right: 20px;
+        top: 15px;
+    }
+    .header-manipulation-item:last-child {
+        display: block;
+    }
+}
+
+@media only all and ( max-width: 1281px) {
+    /* từ size này trở lên là danh cho desktop thông thườn */
+    .sales-img {
+        width: 100%;
+        margin-left: 50px;
+    }
+    .sale_kids-text .heading {
+        font-size: 50px;
+    }
+    #header .container,
+    #banner .container {
+        max-width: 1200px;
+        padding: 15px;
+    }
+    .product-thumb {
+        width: 100%;
+        height: auto;
+    }
+}
